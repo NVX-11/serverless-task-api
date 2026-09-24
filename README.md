@@ -1,8 +1,7 @@
 # Serverless Task Manager API
 
-**One REST API, five Lambda functions, and no server to keep alive.**
 
-I built this project to see what a small CRUD API looks like when the usual application server disappears from the picture.
+ Built this project to see what a small CRUD API looks like when the usual application server disappears from the picture.
 
 API Gateway handles the HTTP surface. Each operation has its own Lambda function. DynamoDB holds the task data, and Terraform creates the stack from the API routes down to the IAM permissions and log groups.
 
